@@ -1,0 +1,78 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#box-header{
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #d44d4b, #ffa1a1	);
+    color: #FFF;
+}
+
+#box-header nav {
+    padding:0;
+    letter-spacing: 2px;
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#box-footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #d44d4b, #ffa1a1	);
+    color: #FFF;
+}
+
+#centro {
+    align-items: center;
+    text-align: center;
+}
+
+#quadro1 {
+    padding: 50px;
+    text-align: center;
+    table-layout: fixed;
+}
+#quadro1 td {
+    width: 350px;
+    height: 80px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+}
+
+a:visited { color: #333; font-weight: bolder;}
+a:link {text-decoration: none; color: #333; font-weight: bolder;}
+a:hover {text-decoration: underline; color: #FFF; font-weight: bolder;}
+
+h1{ color: #666}
+
+th {
+    background-color: #333;
+    font-weight: bolder;
+    color: #FFF;
+    padding: 15px;
+    border-radius: 30% 10%;
+    text-align: center;
+}
